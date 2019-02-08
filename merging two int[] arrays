@@ -1,0 +1,42 @@
+public class ArrayMerge {
+
+ public static int [ ] mergeArray ( int [ ] first , int [ ] second ) {
+let newArray=();
+var Count=0;
+for(Let i=0;i<first.length;i++)
+{
+newArray[i]=first[i];
+count++;
+ }
+ public static void printArray ( int [ ]array ) {
+for(j=0;j<second.length;j++)
+{
+newArray[count++]=second[j];
+ }
+ return newArray;
+ }
+ public static void main ( String [ ] args ) {
+
+ int [ ] firstarray ;
+ FirstArray = new int[]{1,2,3};
+ int [ ] secondArray ;
+ secondArray = new int[]{4,5,6,7};
+
+ printArray( FirstArray) ;
+ printArray ( secondArray);
+ printArray( mergeArray (firstArray , secondArray)) ;
+ firstArray= new int [] {1};
+ secondArray = new int []{};
+
+ printArray ( firstArray ) ;
+ printArray ( secondArray ) ;
+printArray ( mergeArray ( firstArray , secondArray)) ;
+
+ firstArray = new int [ ] { } ;
+ secondArray = new int [ ] { 4 } ;
+
+ printArray( firstArray);
+ printArray ( secondArray) ;
+}
+}
+
