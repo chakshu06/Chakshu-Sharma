@@ -1,0 +1,29 @@
+public class ArrayMin {
+
+ public static int min ( int [ ] array ) {
+ let minValue=Array[0];
+ for(i=0;i<array.lenth;i++){
+ if(array[i]<minValue){
+ minValue=array[i];
+ }
+ return=minValue;
+ }
+
+public static void main ( String[]args() ) {
+
+ int [ ] firstArray ;
+firstArray = new int [] {1,2,3,4,5,6,7,8,9,10 } ;
+ System.out.println ( "Min of firstArray: " + min ( firstArray ) ) ;
+
+ int [] secondArray ;
+secondArray = new int [] {10,9,8,7,6,5,4,3,2,1 } ;
+ System.out.println ( "Min of secondArray: " + min ( secondArray ) ) ;
+
+ int [] thirdArray ;
+ thirdArray = new int [] { 1 0 } ;
+System.out.println ( "Min of thirdArray: " + min ( thirdArray ) ) ;
+ int [] fourthArray ;
+ four thArray = new in t [ ] { 10 , 9 , 10 } ;
+ System . out . println ( "Min of fourthArray: " + min ( fourthArray ) )
+ }
+ }
